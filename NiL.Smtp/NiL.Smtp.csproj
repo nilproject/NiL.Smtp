@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>keys.snk</AssemblyOriginatorKeyFile>
+    <Title>$(AssemblyName)</Title>
+    <Company>NiLProject</Company>
+    <Description>Simple implementation of SMTP protocol</Description>
+    <Copyright>NiLProject, 2024</Copyright>
+    <PackageProjectUrl>https://github.com/nilproject/NiL.Smtp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nilproject/NiL.Smtp</RepositoryUrl>
+    <PackageTags>smtp</PackageTags>
+  </PropertyGroup>
+
+</Project>
